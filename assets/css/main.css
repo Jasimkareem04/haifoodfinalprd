@@ -559,10 +559,12 @@ nav.main-menu ul li {
 }
 
 nav.main-menu ul li a {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #363636;
-  font-weight: 700;
-  display: block;
-  padding: 15px;
+  font-weight: 500;
+  display:block;
+  padding: 25px;
+  font-size:large;
 }
 
 nav.main-menu ul > li {
@@ -2007,6 +2009,11 @@ span.comment-date {
 # Testimonial Styles
 
 ----------------------------------------------------------------------------- */
+
+.testimonail-section{
+  padding-top: 5%;
+  background-color: rgb(255, 255, 255);
+}
 .client-avater {
   margin-bottom: 20px;
 }
@@ -2051,7 +2058,7 @@ p.testimonial-body {
 
 # About Styles
 
------------------------------------------------------------------------------ */
+----------------------------------------------------------------------------- */ 
 a.video-play-btn {
   position: absolute;
   background-color: #F28123;
@@ -2762,4 +2769,52 @@ table.order-details tbody td {
   display: table-cell;
   vertical-align: middle;
   width: 100%;
+}
+
+
+
+
+.Qcontent h3{
+font-weight: 600;
+color: #F28123;
+}
+
+.qualitySection{
+ padding-top:10%;
+ padding-bottom: 10%;
+ background-color:whitesmoke;
+}
+
+.MainTxt{
+  padding-block: 10%;
+  padding-right: 20%;
+}
+.MainTxt h2{
+  text-align-last: right;
+  color:#F28123 ;
+}
+
+.MainTxt hr{
+  border-color: #000;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left:0.9em;
+  margin-right: 0.4em;
+  border-width: 0.1cm;
+}
+
+.popular-section{
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-color:#FFF;
+}
+
+.white-text{
+  color: white;
+}
+ 
+.about-section{
+  background-color: whitesmoke;
+  padding-bottom: 2%;
+  padding-top: 5%;
 }
