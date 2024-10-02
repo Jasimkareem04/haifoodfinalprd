@@ -1475,7 +1475,7 @@ input[type="submit"] {
 }
 
 .homepage-bg-1 {
-  background-image: url(../img/home-bg.jpeg);
+  background-image: url(../img/home-bg6.png);
   height: 100%;
   padding-top: 18%;
 }
@@ -2173,7 +2173,7 @@ a.video-play-btn {
 }
 
 .feature-bg:after {
-  background-image: url(../img/feature-bg.jpg);
+  background-image: url(../img/home-bg2.jpeg);
   position: absolute;
   right: 0;
   top: 0;
@@ -2268,10 +2268,12 @@ ul.social-link-team li a {
 }
 
 .form-title h2 {
+  color: white;
   font-size: 25px;
 }
 
 .form-title p {
+  color: white;
   font-size: 15px;
   line-height: 1.8;
 }
@@ -2280,14 +2282,14 @@ ul.social-link-team li a {
   width: 49%;
   padding: 15px;
   border: 1px solid #ddd;
-  border-radius: 3px;
+  border-radius: 10px;
 }
 
 .contact-form form p textarea {
   border: 1px solid #ddd;
   padding: 15px;
   height: 200px;
-  border-radius: 3px;
+  border-radius: 10px;
   width: 100%;
   resize: none;
 }
@@ -2295,7 +2297,7 @@ ul.social-link-team li a {
 .contact-form-wrap {
   background-color: #FBFBFB;
   padding: 45px 30px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .contact-form-box {
@@ -2331,7 +2333,7 @@ ul.social-link-team li a {
   font-size: 40px;
   margin: 0;
   font-weight: 600;
-  padding: 95px 0;
+  padding: 10px 0;
 }
 
 .find-location p i {
@@ -2775,11 +2777,22 @@ table.order-details tbody td {
 
 
 .Qcontent h3{
+font-family: 'Times New Roman', Times, serif;
 font-weight: 600;
 color: #F28123;
 }
 
+.Qcontent p{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  color: black;
+  }
+
+
 .qualitySection{
+background-image: url(../img/home-bg7.png);
+background-repeat: no-repeat;
+background-size: cover;
 background-color: whitesmoke;
  padding-top:10%;
  padding-bottom: 10%;
@@ -2791,6 +2804,8 @@ background-color: whitesmoke;
   padding-right: 20%;
 }
 .MainTxt h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
   filter: brightness(100%);
   text-align-last: right;
   color:#F28123 ;
@@ -2812,7 +2827,10 @@ background-color: whitesmoke;
 }
 
 .white-text{
-  color: white;
+  color: whitesmoke;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 7px;
 }
  
 .about-section{
@@ -2845,7 +2863,7 @@ background-color: whitesmoke;
 
 .section-title2 p {
   font-size: 15px;
-  width: 530px;
+  width: 830px;
   margin: 0 auto;
   color:white;
   margin-top: 10px;
@@ -2857,10 +2875,26 @@ background-color: whitesmoke;
 }
 
 .back-panel{
+  background-image: url(../img/download.jpg) ;
   padding-top: 5%;
   padding-bottom: 5%;
   background-color: #bebebe;
   background-size: cover;
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
+}
+
+.breadcrumb-text2 p {
+  color: #F28123;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+}
+
+.breadcrumb-text2 h1 {
+  font-size: 50px;
+  font-weight: 900;
+  color:white;
+  margin: 0;
+  margin-top: 20px;
 }
