@@ -1,8 +1,16 @@
 /* Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) {
+	.qualitySection{
+		background-image: url(../img/home-bg7.png);
+	}
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) { 
+
+	.qualitySection{
+		background-image: url(../img/home-bg7.png);
+	}
+
 	.hero-text h1 {
 	    font-size: 45px;
 	}
@@ -40,6 +48,11 @@
 }
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
+    
+	.qualitySection{
+		background-image: url(../img/home-bg7.png);
+	}
+
 	.hero-text h1 {
 	    font-size: 40px;
 	}
@@ -204,8 +217,28 @@
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
 
+	.MainTxt h2{
+		text-align: center;
+		max-width: 100%;
+		padding-right: 0%;
+	}
+
+	.back-panel
+	{
+		border-top-left-radius: 1%;
+         border-top-right-radius: 1%;
+	}
+
+	.homepage-bg-1{
+		max-height: 35%;
+	}
+
+	.qualitySection{
+		background-color: whitesmoke;
+	}
+
 	.site-logo img {
-	    max-width: 150px;
+	    max-width: 100px;
 	}
 
 	.responsive-menu-wrap {
@@ -226,6 +259,10 @@
 	    font-size: 13px;
 	}
 	.section-title p {
+	    max-width: 400px;
+	}
+
+	.section-title2 p {
 	    max-width: 400px;
 	}
 
@@ -394,6 +431,10 @@
 		width: auto;
 	}
 	.section-title p {
+		max-width: 285px;
+	}
+
+	.section-title2 p {
 		max-width: 285px;
 	}
 
