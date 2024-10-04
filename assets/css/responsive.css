@@ -4,13 +4,7 @@
 		background-image: url(../img/home-bg7.png);
 	}
 
-	.section-title2 h3{
-		text-align: center;
-	}
 
-	.section-title2 p{
-		text-align: center;
-	}
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) { 
