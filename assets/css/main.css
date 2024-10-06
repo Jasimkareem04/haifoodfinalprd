@@ -543,6 +543,7 @@ ul.navbar-nav li.nav-item a.nav-link, ul.navbar-nav li.nav-item.active a.nav-lin
   color: #fff;
   font-weight: 700;
   margin-right: 14px;
+ 
 }
 
 a.navbar-brand img {
@@ -732,6 +733,7 @@ nav.main-menu li a {
 .sticky-wrapper.is-sticky .top-header-area {
   background-color: #fff;
   padding: 1px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .top-header-area {
